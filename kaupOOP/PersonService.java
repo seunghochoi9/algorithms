@@ -1,4 +1,4 @@
 package kaupOOP;
 
-public class KaupController {
+public class PersonService {
 }
