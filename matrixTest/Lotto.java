@@ -20,9 +20,22 @@ public class Lotto {
 
             }
         }
+
+//        [버블 정렬]
+//        for(int i=0; i<lotto.length; i++){
+//            for(int j=0; j<lotto.length-1; j++){
+//                if(lotto[j] > lotto[j+1]){
+//                    int temp = lotto[j];
+//                    lotto[j] = lotto[j+1];
+//                    lotto[j+1] = temp;
+//                }
+//            }
+//        }
+
         Arrays.sort(lotto);
         for (int i = 0; i < lotto.length; i++){
-            System.out.println(lotto[i]);
+            System.out.print(lotto[i]+" ");
         }
+
     }
 }
