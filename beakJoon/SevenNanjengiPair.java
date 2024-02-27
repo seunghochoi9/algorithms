@@ -12,7 +12,6 @@ public class SevenNanjengiPair {
             num[i] = sc.nextInt();
             sum += num[i];
         }
-
         for (int i = 0; i < num.length - 1; i++) {
             for (int j = i + 1; j < num.length; j++) {
                 if ((sum - num[i] - num[j]) == 100) {
