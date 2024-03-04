@@ -3,7 +3,7 @@ package beakJoon;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class SevenNanjengiPair {
+public class SevenNanjeng2309 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[9];
